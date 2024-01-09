@@ -1,0 +1,51 @@
+body {
+    margin: auto;
+    padding: 50px;
+    background-color: black;
+    
+}
+h1 {
+    color: #84c754;
+    font-size: 50px;
+}
+h2 {
+    color: #84c754;
+    font-size: 40px;
+}
+p { 
+    color: #84c754;
+    font-size: 20px;
+}
+#PepeTac {
+/*  margin: auto; <-- Funciona para centralizar unicamente para textos */
+    border: 3px solid green;
+    margin: auto;
+}
+#peepobottom {
+    width: 200px;
+    margin: auto;
+}
+#Boton1 {
+    padding-right: 600px;
+    padding-left: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: red;
+    border: 2px solid rgb(238, 179, 18);
+   /* width: 60%;*/
+}
+.contenido {
+    border: 1px solid white;
+    padding: 50px;
+    margin: 20px;
+
+}
+#pepodan {
+    width: 450px;
+}
+#bobgil {
+    width: 450px;
+}
+.lista {
+    color: #84c754;
+}
