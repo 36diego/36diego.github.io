@@ -14,9 +14,18 @@
 </head>
 
 <body>
-    <audio loop controls>
-        <source src="re4serenidad.mp3" type="audio/mp3">
-    </audio>
+    <div id="panel1">
+        <audio loop controls> <source src="re4serenidad.mp3" type="audio/mp3"></audio>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro consequatur itaque voluptatibus hic officia fugiat obcaecati? Necessitatibus quaerat laudantium nostrum consequuntur impedit, sapiente sunt, repellendus aspernatur enim repellat eius provident.</p>
+    </div>
+    <div id="panel2">
+        <h3>Fecha y hora:</h3>
+        <div id="reloj-contenedor">
+            <div id="fecha"></div>
+            <div id="hora"></div>
+        </div>
+        <img src="peepocompu.jpeg" alt="pepocompu" width="200" height="200" id="pepocom" >
+    </div>
     <h1 style="text-align: center;">Bienvenido a la pagina del pepox gangs</h1>
 
     <div style="text-align: center;">
@@ -37,7 +46,7 @@
     </div>
     <div class="lista">
         <ul>
-            <li style="color: #84c754;"> <a href="formu.html" style="color: #84c754;"> El formulario de la pepona &#128511;</a>&#128511;</li>
+            <li class="menuitem"> <a href="formu.html" style="color: #84c754;"> El formulario de la pepona &#128511;</a>&#128511;</li>
         </ul>
     </div>
     <div class="contenido">
@@ -49,6 +58,6 @@
             <source src="peposdan.mp4" type="video/mp4">
         </video>
     </div>
-
+<script src="relojscr.js"></script>
 </body>
 </html>

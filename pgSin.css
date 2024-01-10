@@ -2,7 +2,7 @@ body {
     margin: auto;
     padding: 50px;
     background-color: black;
-    
+    font: 100% Courier New;
 }
 h1 {
     color: #84c754;
@@ -48,4 +48,40 @@ p {
 }
 .lista {
     color: #84c754;
+}
+.menuitem {
+    color: #84c754;
+    cursor: pointer;
+}
+#panel1 {
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px;
+    position: absolute;
+    top: 150px;
+    width: 320px;
+}
+#panel2 {
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px;
+    position: absolute;
+    top: 150px;
+    width: 320px;
+    right: 30px;
+    height: 350px;
+}
+h3 {
+    color: #84c754;
+}
+#reloj-contenedor {
+    text-align: center;
+    color: #84c754;
+}
+#date, #time {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#pepocom {
+    margin-top: 20px;
 }
